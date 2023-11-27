@@ -1,0 +1,56 @@
+.blue-red-button {
+    background-color: rgb(16,20,76);
+    color: white;
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .blue-red-button:hover {
+    background-color: rgb(216,52,52);
+  }
+
+  .blue-red:hover{
+    color: rgb(216,52,52);
+  }
+
+  
+
+.blue-red-text {
+  color: rgb(16, 20, 76);
+}
+
+.blue-red-text:hover {
+  color: rgb(216, 52, 52);
+}
+
+.content-toggle {
+  display: none;
+}
+
+.button-container{
+	position: relative;
+	height: 201px;
+	width: 100%; 
+} 
+
+
+.button{
+  cursor: pointer;
+	width: 150px;
+	height: 100px; 
+	transform: skew(20deg);
+	background: red; 
+	transition-duration: 0.3s;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 0 0 10px;
+}
+.two{
+	transform: skew(-20deg);
+	box-shadow: 0 5px 10px;
+	background-color: maroon;
+}
